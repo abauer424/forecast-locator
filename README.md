@@ -7,6 +7,8 @@ For this assignment, our task was to build a website where a user can search a c
 I named my project Forecast Locator which can be viewed <a href ="https://github.com/abauer424/forecast-locator"> here.</a> 
 
 
+
+
 ## Table of Contents 
 
 * [Installation](#installation)
