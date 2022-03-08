@@ -17,7 +17,7 @@ I named my project Forecast Locator which can be viewed <a href ="https://github
 
 ## Installation
 
-To install the project, you need to use git clone and git pull from <a href ="https://github.com/abauer424/work-day-scheduler">my repository.</a>
+To install the project, you need to use git clone and git pull from <a href ="https://github.com/abauer424/forecast-locator">my repository.</a>
 
 
 ## Usage 
@@ -33,6 +33,6 @@ Credit to Amber Bauer, W3Schools.com and AskBCS.
 
 ## License
 
-Please view the license <a href="https://github.com/abauer424/work-day-scheduler/blob/main/LICENSE">here.</a>
+Please view the license <a href="https://github.com/abauer424/forecast-locator/blob/main/LICENSE">here.</a>
 
 

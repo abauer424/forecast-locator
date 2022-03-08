@@ -32,10 +32,10 @@ $(document).ready(function () {
             response.json().then(function (data) {
                 console.log(data)
 
-    console.log(data.current.temp)
-    console.log(data.current.wind_speed)
-    console.log(data.current.humidity)
-    console.log(data.current.uvi)
+    // console.log(data.current.temp)
+    // console.log(data.current.wind_speed)
+    // console.log(data.current.humidity)
+    // console.log(data.current.uvi)
 
             })
 
