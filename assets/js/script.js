@@ -20,10 +20,6 @@ $(document).ready(function () {
         fetch("http://api.openweathermap.org/geo/1.0/direct?q=" + cityTerm + "&appid=" + APIKey).then(function (response) {
             response.json().then(function (data) {
                 displayWeather(data, city)
-                if (response.ok) {
-                } else {
-                    alert('Error: Please enter a valid city name')
-                }
                 var lat = data[0].lat
                 var lon = data[0].lon
                 getCityWeather(lat, lon);
@@ -34,7 +30,13 @@ $(document).ready(function () {
     var getCityWeather = function (lat, lon) {
         fetch("https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&appid=" + APIKey + "&units=imperial").then(function (response) {
             response.json().then(function (data) {
-                console.log(data);
+                console.log(data)
+
+    console.log(data.current.temp)
+    console.log(data.current.wind_speed)
+    console.log(data.current.humidity)
+    console.log(data.current.uvi)
+
             })
 
         })
@@ -51,9 +53,9 @@ userFormEl.addEventListener("submit", formSubmitHandler);
 
 var city = cityInputEl.value.trim();
 
-if (city) {
-    cityInputEl.value = "";
-} else[
-    alert("Please enter a valid city name")
-]
+// if (city) {
+//     cityInputEl.value = "";
+// } else[
+//     alert("Please enter a valid city name")
+// ]
 
