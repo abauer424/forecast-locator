@@ -85,9 +85,9 @@
   .card-mini {
     color: white;
     background-color: var(--dark);
-    font-size: 18px;
+    font-size: 17px;
     font-weight:400;
-    text-align: center;
+    text-align: left;
     margin: 5px;
     border-radius:5px;
   }
@@ -141,3 +141,7 @@
   padding-top: 20px;
 }
  
+.dataFuture {
+  font-weight: 300;
+  font-size: 17px;
+}
