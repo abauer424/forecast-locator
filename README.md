@@ -22,7 +22,7 @@ To install the project, you need to use git clone and git pull from <a href ="ht
 
 ## Usage 
 
-Upon page load, the user will see the image below is how the page should appear. The user will see the header introduction "Work Day Scheduler" followed by the current date. There are 10 time slots from 9am-5pm where the user can enter text. 
+Upon page load, the user will see the image below is how the page should appear. The user will see on the left hand side there is a search bar and on the right side is where the data is set to display.
 <img src="https://github.com/abauer424/forecast-locator/blob/main/assets/images/FL.png" alt="image of Forecast Locator"/>
 
 
