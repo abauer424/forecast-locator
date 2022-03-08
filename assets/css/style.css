@@ -1,6 +1,6 @@
 :root {
     --lt-blue:  #E3F4FE;
-    --med-blue: #1C9CF6;
+    --med-blue: #3f82b1;
     --dark: #044769;
     --border-radius: .3rem;
   }
@@ -74,13 +74,22 @@
   }
   
   .card-header {
-    color: var(--lt-blue);
-    background-color: var(--dark);
-    padding: 2.5%;
+    color: white;
+    background-color: var(--med-blue);
     font-size: 26px;
     font-weight:400;
     text-align: center;
     border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+  }
+
+  .card-mini {
+    color: white;
+    background-color: var(--dark);
+    font-size: 18px;
+    font-weight:400;
+    text-align: center;
+    margin: 5px;
+    border-radius:5px;
   }
   
   .card-body {
@@ -123,5 +132,12 @@
     flex-wrap: wrap;
   }
   
+/*Todays weather*/
+.dataToday {
+  padding-left:20px;
+}
 
+#temp {
+  padding-top: 20px;
+}
  
