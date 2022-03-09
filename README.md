@@ -4,7 +4,7 @@
 
 For this assignment, our task was to build a website where a user can search a city name and see the temperature, wind speed, humidity and UV index for that city. In addition, the user will also see the 5-day forecast for the inputted city. Additional details for this project include an icon that indicates whether the conditions are favorable, moderate or severe. Below the search bar will also show current and future conditions for past searched cities. 
 
-I named my project Forecast Locator which can be viewed <a href ="https://github.com/abauer424/forecast-locator"> here.</a> 
+I named my project Forecast Locator which can be viewed <a href ="https://abauer424.github.io/forecast-locator/"> here.</a> 
 
 
 
